@@ -34,14 +34,14 @@ function App() {
           className="container w-[90%] border border-black rounded p-3 m-1 bg-orange-300 text-black hover:bg-orange-400 hover:text-white"
         >
           <a href={link.link} target="_blank">
-            <h2>
+            <p className="text-sm">
               {index + 1}. {link.judul}
-            </h2>
+            </p>
           </a>
         </div>
       ))}
       <div className="m-3">
-        <p className="text-sm italic">Created by A-san</p>
+        <p className="text-xs italic">Created by A-san</p>
       </div>
     </div>
   );
