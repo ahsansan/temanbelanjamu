@@ -24,14 +24,14 @@ function App() {
     },
   ];
   return (
-    <div className="flex w-[500px] justify-center items-center flex-col my-10 border shadow-lg mx-auto">
-      <h2 className="max-w-xl rounded p-1 m-3 text-2xl">
+    <div className="flex w-[350px] justify-center items-center flex-col my-10 border shadow-lg mx-auto">
+      <h2 className="max-w-sm rounded p-1 m-3 text-2xl">
         Link Teman Belanjamu
       </h2>
       {links.map((link, index) => (
         <div
           key={index}
-          className="container max-w-md border border-black rounded p-3 m-1 bg-orange-300 text-black hover:bg-orange-400 hover:text-white"
+          className="container w-[90%] border border-black rounded p-3 m-1 bg-orange-300 text-black hover:bg-orange-400 hover:text-white"
         >
           <a href={link.link} target="_blank">
             <h2>
