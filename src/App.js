@@ -12,7 +12,7 @@ function App() {
     },
     {
       link: "https://shope.ee/8UU8dLNzQ9",
-      judul: "Penjepit Kabel di Dinding",
+      judul: "Klip Penjepit Kabel di Dinding",
     },
     {
       link: "https://shope.ee/6f2USU4dZh",
@@ -20,13 +20,13 @@ function App() {
     },
     {
       link: "https://shope.ee/VRr7TSu1I",
-      judul: "Pengupas Buah Apel / Pir",
+      judul: "Alat Pengupas Buah Apel / Pir",
     },
   ];
   return (
-    <div className="flex w-[350px] justify-center items-center flex-col my-10 border shadow-lg mx-auto">
-      <h2 className="max-w-sm rounded p-1 m-3 text-2xl">
-        Link Teman Belanjamu
+    <div className="flex w-[350px] justify-center items-center flex-col my-10 border shadow-lg mx-auto rounded">
+      <h2 className="max-w-sm rounded p-1 m-6 text-2xl font-bold underline">
+        Link <span className="font-bold text-orange-500">Teman Belanjamu</span>
       </h2>
       {links.map((link, index) => (
         <div
@@ -40,8 +40,8 @@ function App() {
           </a>
         </div>
       ))}
-      <div className="m-3">
-        <p className="text-xs italic">Created by A-san</p>
+      <div className="m-6">
+        <p className="text-xs text-slate-400 italic">Created by A-san</p>
       </div>
     </div>
   );
