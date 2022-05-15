@@ -31,10 +31,10 @@ function App() {
       {links.map((link, index) => (
         <div
           key={index}
-          className="container w-[90%] border border-black rounded p-3 m-1 bg-orange-300 text-black hover:bg-orange-400 hover:text-white"
+          className="container w-[90%] border border-black rounded m-1 bg-orange-300 text-black hover:bg-orange-400 hover:text-white"
         >
           <a href={link.link} target="_blank">
-            <p className="text-sm">
+            <p className="text-sm block p-3">
               {index + 1}. {link.judul}
             </p>
           </a>
