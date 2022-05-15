@@ -22,6 +22,22 @@ function App() {
       link: "https://shope.ee/VRr7TSu1I",
       judul: "Alat Pengupas Buah Apel / Pir",
     },
+    {
+      link: "https://shope.ee/4paua5M7iU",
+      judul: "Tali Pengikat Gorden Magnet",
+    },
+    {
+      link: "https://shope.ee/8KAmlBeZ7o",
+      judul: "Cekatakan Es Silikon Bulat",
+    },
+    {
+      link: "https://shope.ee/4ALDneHnAv",
+      judul: "Alat Pengupas Buah Kiwi",
+    },
+    {
+      link: "https://shope.ee/5zmrz7lzEI",
+      judul: "Alat Pemotong Pisang / Sosis",
+    },
   ];
   return (
     <div className="flex w-[350px] justify-center items-center flex-col my-10 border shadow-lg mx-auto rounded">
@@ -33,7 +49,7 @@ function App() {
           key={index}
           className="container w-[90%] border border-black rounded m-1 bg-orange-300 text-black hover:bg-orange-400 hover:text-white"
         >
-          <a href={link.link} target="_blank">
+          <a href={link.link} target="_blank" rel="noreferrer">
             <p className="text-sm block p-3">
               {index + 1}. {link.judul}
             </p>
